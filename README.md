@@ -1,10 +1,10 @@
----
+```yaml
 license: apache-2.0
 datasets:
-- Skywork/Skywork-Reward-Preference-80K-v0.1
+  - Skywork/Skywork-Reward-Preference-80K-v0.1
 base_model:
-- Qwen/Qwen2-7B-Instruct
----
+  - Qwen/Qwen2-7B-Instruct
+```
 
 ## Introduction
 
