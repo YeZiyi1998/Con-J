@@ -168,6 +168,10 @@ sh train_dpo.sh $task_name
 # inference and evaluation
 sh vllm_inference2.sh $task_name $task_name
 ```
+To enable Con-J training, one should download the base model Qwen/Qwen2-7B-Instruct and the dataset Skywork/Skywork-Reward-Preference-80K-v0.1 to proper place align with the training scripts. Then the downloaded dataset can be preprocessed by runing the following command:
+```bash
+python preprocess_dataset.py
+```
 
 ## Reference
 Coming soon.
