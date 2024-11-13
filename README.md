@@ -8,7 +8,7 @@ base_model:
 
 ## Introduction
 
-Con-J-Qwen2-7B (learning the generative \***J***udge using self-generated ***Con***trastive judgments) is an advanced generative judge built on Qwen2-7B-Instruct architecture and dataset Skywork/Skywork-Reward-Preference-80K-v0.1. 
+Con-J-Qwen2-7B (learning the generative ***J***udge using self-generated ***Con***trastive judgments) is an advanced generative judge built on Qwen2-7B-Instruct architecture and dataset Skywork/Skywork-Reward-Preference-80K-v0.1. 
 
 Con-J-Qwen2-7B is trained from preference data. We prompt the pre-trained Qwen2-7B-Instruct model to generate positive and negative judgments, both supported with rationales in natural language form. Then the self-generated contrastive judgment pairs are used to train the generative judge with Direct Preference Optimization (DPO). By doing this, Con-J learns to act as a generative judge and provides accurate and supprting rationales.
 
