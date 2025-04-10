@@ -174,5 +174,9 @@ python preprocess_dataset.py
 ```
 
 ## Reference
-Coming soon.
+@inproceedings{yelearning,
+  title={Learning LLM-as-a-Judge for Preference Alignment},
+  author={Ye, Ziyi and Li, Xiangsheng and Li, Qiuchi and Ai, Qingyao and Zhou, Yujia and Shen, Wei and Yan, Dong and Liu, Yiqun},
+  booktitle={The Thirteenth International Conference on Learning Representations}
+}
 
